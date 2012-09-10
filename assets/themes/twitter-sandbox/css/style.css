@@ -1,0 +1,22 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+@import url(http://fonts.googleapis.com/css?family=Asap);
+html,body{background-color:#dcf3f8;font-family:'Asap',sans-serif;font-style:normal;font-weight:400;font-size:13px;text-transform:none;text-decoration:none;letter-spacing:0em;word-spacing:0em;line-height:1.4;}
+.navbar{margin-bottom:0;}
+.container-fluid{width:940px;margin-left:auto;margin-right:auto;}
+.container>footer{margin-top:20px;text-align:center;}
+.container>footer p{text-align:center;}
+.content{background-color:#fff;padding:5px;margin:0 -7px;-webkit-border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;border-radius:3px 3px 3px 3px;-webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);-moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);}
+.prettyprint.linenums{width:675px;}
+.sidebar{background-color:#fff;padding:5px;margin:0 -7px;-webkit-border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;border-radius:3px 3px 3px 3px;-webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);-moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);}
+.container>header-container{margin-left:auto;margin-right:auto;width:940px;}
+.page-header{background-color:#b0c7bf;padding:20px 20px 10px;margin:-20px -20px 20px;-webkit-border-radius:6px 6px 0 0;-moz-border-radius:6px 6px 0 0;border-radius:6px 6px 0 0;}
+.site-header{background-color:#b0c7bf;padding:5px;margin:7px -7px;-webkit-border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;border-radius:3px 3px 3px 3px;-webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);-moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);box-shadow:1px 1px 2px rgba(0, 0, 0, 0.15);}
+.post>h3.title{position:relative;padding-top:10px;border-top:3px solid #eee;}
+.post>h3.title span.date{position:absolute;right:0;font-size:3em;}
+.post>.more{margin:10px 0;text-align:left;}
+.tag_box{list-style:none;margin:0;padding:5px 0 ;overflow:hidden;}
+.tag_box li{line-height:28px;}
+.tag_box.inline li{float:left;}
+.tag_box a{padding:3px 6px;margin:2px;background:#eee;color:#005F6B;border-radius:3px;text-decoration:none;}
+.tag_box a span{vertical-align:super;font-size:0.8em;}
+.tag_box a.active{background:#57A957;border:1px solid #4C964D;color:#FFF;}
