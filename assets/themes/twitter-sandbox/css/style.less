@@ -53,7 +53,7 @@ html, body {
 /* The white background content wrapper */
 .content {
   background-color: #fff;
-  padding: 5px;
+  padding: 10px;
   margin: 0 -7px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 3px 3px 3px 3px;
      -moz-border-radius: 3px 3px 3px 3px;
@@ -62,14 +62,6 @@ html, body {
      -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.15);
           box-shadow: 1px 1px 2px rgba(0,0,0,.15);
 
-}
-
-.pre {
-    width:675px;
-}
-
-.code {
-    width:675px;
 }
 
 //The code tag -- a temporary fix until I can generalize it more.
@@ -79,14 +71,29 @@ html, body {
 /* The white background sidebar wrapper */
 .sidebar {
   background-color: #fff;
-  padding: 5px;
-  margin: 0 -7px; /* negative indent the amount of the padding to maintain the grid system */
+  padding: 10px;
+  position: relative;
+  width: auto; /* temporary for messing around with fixed positioning */
+  margin: 0px -7px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 3px 3px 3px 3px;
      -moz-border-radius: 3px 3px 3px 3px;
           border-radius: 3px 3px 3px 3px;
   -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.15);
      -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.15);
           box-shadow: 1px 1px 2px rgba(0,0,0,.15);
+}
+/* Can't seem to get how inheritance works just yet, and I am lazy. */
+.aboutbox {
+  background-color: #fff;
+  padding: 10px;
+  margin: 0px -7px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 3px 3px 3px 3px;
+     -moz-border-radius: 3px 3px 3px 3px;
+          border-radius: 3px 3px 3px 3px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.15);
+          box-shadow: 1px 1px 2px rgba(0,0,0,.15);
+    margin-bottom: 7px;
 }
 
 .container > header-container {
@@ -105,9 +112,17 @@ html, body {
           border-radius: 6px 6px 0 0;
 }
 
-/* Site header */
+/* Site header - parts from Ethan Turkeltaubc */
 .site-header {
-  background-color: @headerBackground;
+  background: #FFF url("/assets/themes/twitter-sandbox/pics/seattle.jpg") no-repeat;
+  background-size: cover;
+  margin-bottom: 6em;
+  section {
+    @include container;
+    padding: 4em 0;
+	text-align: center;
+  }
+  /*background-color: @headerBackground;*/
   padding: 5px;
   margin: 7px -7px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 3px 3px 3px 3px;
@@ -117,6 +132,7 @@ html, body {
      -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.15);
           box-shadow: 1px 1px 2px rgba(0,0,0,.15);
 }
+
 /* posts index */
 .post > h3.title {
   position:relative;

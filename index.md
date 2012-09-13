@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Hello World!
+title: Main
 tagline: Supporting tagline
+group: navigation
 ---
 {% include JB/setup %}
 
