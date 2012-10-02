@@ -25,14 +25,14 @@
   </head>
 
   <body>
-
     <div class="container-fluid">
-        <div class="site-header"> 
-            <h1>{{ site.author.name }} </h1>
-        </div>
         <div class="container">
+                <div class="simple-site-header"> 
+                       <h1>{{ site.author.name }} </h1> 
+                </div>
         <div class="row-fluid">
             <div class="span9">
+            
             <div class="content">
                 {{ content }}
             </div>
@@ -64,10 +64,6 @@
         </div>
         </div>
        <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
       </footer>
     </div> <!-- /container -->
 
