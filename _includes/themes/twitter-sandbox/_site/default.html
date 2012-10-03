@@ -25,56 +25,38 @@
   </head>
 
   <body>
-
-
     <div class="container-fluid">
-        <div class="site-header">
-            <h1>{{ site.author.name }} </h1>
-        </div>
-         <!--
-         <div class="navbar">
-           <div class="navbar-inner">
-             <div class="container">
-                 <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-               <ul class="nav">
-                {% assign pages_list = site.pages %}
-                {% assign group = 'navigation' %}
-                {% include JB/pages_list %}
-               </ul>
-             </div>
-           </div>
-         </div>
-         -->
-
         <div class="container">
+                <div class="simple-site-header"> 
+                    <a href="/index.html"><h1>{{ site.author.name }}</h1> </a>
+                </div>
         <div class="row-fluid">
             <div class="span9">
+            
             <div class="content">
                 {{ content }}
             </div>
             </div>
 
             <div class="span3">
-                <div class ="sidebar">
-                    <img src="dg-apples.jpg" class="img-polaroid">
-
+                <div class ="aboutbox">
+                    <center>
+                        <img src="{{ ASSET_PATH }}/pics/dg-apples.jpg" width="100%" class="img-rounded">
+                        <li class="nav-header">About</li>
+                        
+                    </center>
+                    Daniel Guilak spends his time doing things.
                 </div>
             </div>
             <div class="span3">
                 <div class="sidebar">
                     <ul class="nav nav-list">
-                          <li class="nav-header">
-                            Navigation
-                           </li>
-                           <!--<li class="active">
-                                <a href="#">Home</a>
-                                </li>-->
-                            <li>
+                        <li>
                             {% assign pages_list = site.pages %}
                             {% assign group = 'navigation' %}
                             {% include JB/pages_list %}
                         </li>
-                         ...
+
                     </ul>
                 </div>
             </div>
@@ -83,10 +65,6 @@
         </div>
         </div>
        <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
       </footer>
     </div> <!-- /container -->
 
