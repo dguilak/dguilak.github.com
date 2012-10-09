@@ -4,7 +4,7 @@
 html,body{background-image:url('/assets/themes/twitter-sandbox/pics/60degree_gray.png');background-repeat:repeat;font-family:'Asap',sans-serif;font-style:normal;font-weight:400;font-size:13px;text-transform:none;text-decoration:none;letter-spacing:0em;word-spacing:0em;line-height:1.4;}
 .navbar{margin-bottom:0;}
 .container-fluid{width:630px;margin-left:auto;margin-right:auto;}
-.row-fluid{margin:0px 0px 7px 0px;}
+.row-fluid{margin:0px 0px 12px 0px;}
 .row-fluid .span3{margin:0px 0px 3px 3px;}
 .container{width:630px;margin:0px auto;position:relative;left:80px;}
 .container>footer{margin-top:20px;text-align:center;}
