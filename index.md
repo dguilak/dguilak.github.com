@@ -15,6 +15,8 @@ I'm a double-major in Computer Science and Chemistry at the University of Puget 
 
 If you're interested in contacting me, please feel free to reach out through [Twitter](http://twitter.com/dguilak/), [LinkedIn](http://www.linkedin.com/pub/daniel-guilak/3a/22/145/145), or [GitHub](http://github.com/dguilak/).
 
+## Recent Posts
+
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
