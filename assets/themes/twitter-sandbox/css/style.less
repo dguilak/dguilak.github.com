@@ -25,6 +25,8 @@ html, body {
   letter-spacing: 0em;
   word-spacing: 0em;
   line-height: 1.5;
+  //No text indentation
+  text-indent: 0em;
 }
 
 h1 {
@@ -40,7 +42,7 @@ h2 {
  
 p {
   font: 400 15px/1.6 'Open Sans', Verdana, Helvetica, sans-serif;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   line-height: 1.5;
   color: #444; //Slightly less dark than black.
 }
@@ -103,6 +105,11 @@ p + p {
      -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.15);
           box-shadow: 1px 1px 2px rgba(0,0,0,.15);
 
+}
+
+.code {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 //The code tag -- a temporary fix until I can generalize it more.
