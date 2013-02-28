@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-For our senior capstone project, [Josef Lange](http://josefdlange.com/) and I are working on a tablet-enabled mathematical expression parser we're calling [Expresso](http://github.com/josefdlange/expresso). Since it's really just a proof of concept at this point, we're going to be using some basic OpenCV machine learning functionality to do symbol recognition. Apparently, it can be a bit of a pain to install OpenCV for Python use, so here's what ended up working for me:
+For our senior capstone project, [Josef Lange](http://josefdlange.com/) and I are working on a tablet-enabled mathematical expression parser we're calling [Expresso](http://github.com/expresso-math/). Since it's really just a proof of concept at this point, we're going to be using some basic OpenCV machine learning functionality to do symbol recognition. Apparently, it can be a bit of a pain to install OpenCV for Python use, so here's what ended up working for me:
 
 {::options parse_block_html="true" /}
 I use the [MacPorts](http://www.macports.org/) package manager, so install that if you haven't already. I believe you'll need XCode installed as well.
