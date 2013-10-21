@@ -3,7 +3,7 @@ layout: post
 title: "Installing OpenCV 2 in Mac OS X Lion"
 description: "Gotchas in installing OpenCV 2 for Python 2.7 use in Mac OS X Lion using MacPorts"
 category: 
-tags: []
+tags: [mac, mac os x, os x, opencv]
 ---
 {% include JB/setup %}
 
